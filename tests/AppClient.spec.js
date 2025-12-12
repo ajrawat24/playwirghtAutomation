@@ -18,6 +18,7 @@ await passwordField.fill("test123");
 await loginButton.click();
 
 //await productTitles.first().textContent();
+// await productTitles.first().waitFor();
 await page.waitForLoadState('networkidle');
 console.log(await productTitles.allTextContents());
 await AddToCartButton.click();

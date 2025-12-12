@@ -18,6 +18,8 @@ const config=
 
 browserName: 'chromium',
 headless: false,
+screenthot:'on',
+trace:'on'
   
 },
 
